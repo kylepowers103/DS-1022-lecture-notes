@@ -1,0 +1,17 @@
+Created temporary directory: /private/var/folders/gw/9_v_5b9x4170_40vzlm0mjz00000gn/T/pip-ephem-wheel-cache-s54c06hq
+Created temporary directory: /private/var/folders/gw/9_v_5b9x4170_40vzlm0mjz00000gn/T/pip-req-tracker-3x2nnpuf
+Created requirements tracker '/private/var/folders/gw/9_v_5b9x4170_40vzlm0mjz00000gn/T/pip-req-tracker-3x2nnpuf'
+Created temporary directory: /private/var/folders/gw/9_v_5b9x4170_40vzlm0mjz00000gn/T/pip-install-pjx1fwi1
+Cleaning up...
+Removed build tracker '/private/var/folders/gw/9_v_5b9x4170_40vzlm0mjz00000gn/T/pip-req-tracker-3x2nnpuf'
+Exception information:
+Traceback (most recent call last):
+  File "/Users/powersky/anaconda3/lib/python3.7/site-packages/pip/_internal/cli/base_command.py", line 143, in main
+    status = self.run(options, args)
+  File "/Users/powersky/anaconda3/lib/python3.7/site-packages/pip/_internal/commands/install.py", line 293, in run
+    self.name, wheel_cache
+  File "/Users/powersky/anaconda3/lib/python3.7/site-packages/pip/_internal/cli/base_command.py", line 217, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/Users/powersky/anaconda3/lib/python3.7/site-packages/pip/_internal/req/constructors.py", line 216, in install_req_from_line
+    "nor 'pyproject.toml' found." % name
+pip._internal.exceptions.InstallationError: Directory '.' is not installable. Neither 'setup.py' nor 'pyproject.toml' found.
